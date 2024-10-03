@@ -1,10 +1,11 @@
+package clases;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class FlujoChar {
 
-    public static void main(String[] args) throws IOException {
+    public static void inicio() throws IOException {
 
         FileReader lector = null;
         try {
